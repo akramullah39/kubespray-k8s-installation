@@ -7,11 +7,11 @@
 
 ## Step-by-Step Installation
 
-### 1. Clone Kubespray
-```bash
-git clone https://github.com/kubernetes-sigs/kubespray.git
+### 1. Clone Kubespray. Here we are directly cloning the v2,22,2
 
-Configure Inventory
+git clone -b v2.22.2 https://github.com/kubernetes-sigs/kubespray.git
+
+#From BASH Configure Inventory
 Edit inventory/my-cluster/hosts.yaml:
 
 ## Run Installation
